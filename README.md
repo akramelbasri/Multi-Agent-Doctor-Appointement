@@ -39,14 +39,16 @@ doctor-appointments/
 
 ## Installation
 1. Cloner le dépôt :
+
    git clone https://github.com/votre-utilisateur/Multi-Agent-Doctor-Appointement.git
+
    cd Multi-Agent-Doctor-Appointement/doctor-appointments
 
-2. Installer les dépendances
+3. Installer les dépendances
    pip install poetry
    poetry install
 
-3. Configurer les fichiers nécessaires :
+4. Configurer les fichiers nécessaires :
 Adapter les fichiers de configuration dans config/ si besoin.
 
 ## Utilisation
