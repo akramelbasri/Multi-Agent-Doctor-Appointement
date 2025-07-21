@@ -11,44 +11,38 @@ Notifications : Un service envoie des notifications par email pour confirmer les
 Gestion des conversations : Historique des échanges et recommandations personnalisées.
 
 ## Structure du projet
-
+```bash
 doctor-appointments/
-
-
 ├── agents/                # Agents intelligents (symptômes, recherche, réservation, workflow)
-
 ├── config/                # Configuration des modèles LLM et prompts
-
 ├── conversation/          # Historique des conversations
-
 ├── database/              # Données des rendez-vous, patients, médecins, etc.
-
 ├── llm/                   # Intégration et sélection des modèles de langage
-
 ├── services/              # Services métiers (prise de rendez-vous, notifications)
-
 ├── tests/                 # Tests unitaires
-
 ├── utils/                 # Utilitaires (envoi d'emails, formatage)
-
 ├── main.py                # Point d’entrée principal de l’application
-
 ├── README.md              # Ce fichier
-
 └── pyproject.toml         # Dépendances et configuration du projet
+```
 
 ## Installation
 1. Cloner le dépôt :
-
+```bash
    git clone https://github.com/votre-utilisateur/Multi-Agent-Doctor-Appointement.git
-
+```
+```bash
    cd Multi-Agent-Doctor-Appointement/doctor-appointments
+```
 
 3. Installer les dépendances
+   ```bash
    pip install poetry
+   ```
+   ```bash
    poetry install
-
-4. Configurer les fichiers nécessaires :
+   ```
+5. Configurer les fichiers nécessaires :
 Adapter les fichiers de configuration dans config/ si besoin.
 
 ## Utilisation
